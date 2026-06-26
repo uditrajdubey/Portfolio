@@ -4,7 +4,7 @@ import { FaLinkedinIn, FaGithub } from 'react-icons/fa6';
 import { HiEnvelope, HiArrowUp } from 'react-icons/hi2';
 
 const socialLinks = [
-  { icon: <FaLinkedinIn />, href: 'https://linkedin.com/in/uditrajdubey', label: 'LinkedIn', color: '#0077B5' },
+  { icon: <FaLinkedinIn />, href: 'https://www.linkedin.com/in/udit-raj-dubey-0a551528a/', label: 'LinkedIn', color: '#0077B5' },
   { icon: <FaGithub />, href: 'https://github.com/uditrajdubey', label: 'GitHub', color: '#333' },
   { icon: <HiEnvelope />, href: 'mailto:uditrajdubey48@gmail.com', label: 'Email', color: 'var(--violet)' },
 ];
@@ -33,13 +33,13 @@ const Footer = () => {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={isInView ? { opacity: 1, scale: 1 } : {}}
               transition={{ delay: i * 0.1, duration: 0.5, type: 'spring' }}
-              whileHover={{ 
-                scale: 1.15, 
+              whileHover={{
+                scale: 1.15,
                 y: -5,
                 color: '#fff',
                 backgroundColor: link.color,
                 borderColor: link.color,
-                boxShadow: `0 10px 20px ${link.color}40` 
+                boxShadow: `0 10px 20px ${link.color}40`
               }}
               whileTap={{ scale: 0.95 }}
             >
